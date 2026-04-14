@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component, HOST_TAG_NAME, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Header } from './header/header';
 import { Footer } from './footer/footer';
