@@ -4,7 +4,6 @@ import { Header } from './header/header';
 import { Footer } from './footer/footer';
 import { Home } from './home/home';
 
-
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet,Header,Footer,Home],

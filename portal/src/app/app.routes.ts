@@ -4,15 +4,11 @@ import { Regional } from './regional/regional';
 import { Internacional } from './internacional/internacional';
 import { Somos } from './somos/somos';
 
-<<<<<<< HEAD
-=======
-
->>>>>>> a22cec9ae627f48f0ccb5a299efe703e328306b1
 export const routes: Routes = [
+    
     {path:'local',component:Local},
     {path:'regional',component:Regional},
     {path:'internacional',component:Internacional},
     {path:'quem-somos',component:Somos}
 
 ];
-
