@@ -16,3 +16,8 @@ npx npm install
 npx ng build
 ## Gerar uma build
 npx ng build
+## instalar o json
+npm install -g json-server
+npx json-server --watch db.json --port 3000
+## Adicionar no arquivo package.json, em scripts
+"backend": "json-server --watch db.json --port 3000"
